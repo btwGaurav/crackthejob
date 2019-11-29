@@ -2292,3 +2292,20 @@ a:hover.back-to-top {
 	justify-content: center;
 	font-weight: bold;
 }
+
+@media screen and (max-width: 480px) {
+	.custom-overrride{
+		display: flex;
+		justify-content: space-between;
+	
+	}
+	.custom-overrride * 
+	{
+		width: 20vw !important;
+		height: auto !important;
+		font-size: 10px !important;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	
+  }
